@@ -1,0 +1,231 @@
+* {
+  margin: 0px;
+  font-family: "Baloo 2", cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+
+.container {
+  margin: auto;
+}
+
+.container img {
+  width: 200px;
+}
+
+header {
+  border: 2px solid black;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+}
+
+
+span {
+  font-family: 'Irish Grover', cursive;
+  font-size: 40px;
+}
+
+.it-1 {
+  color: green;
+  
+}
+
+.alia {
+  color: black;
+}
+
+.no {
+  color: rgba(152, 0, 0, 1);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 800;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 15px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+/* Banner */
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner1 {
+  background-color: rgba(37, 38, 33, 1);
+  color: white;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.sp-1 {
+
+  color: green;
+  font-size: 80px;
+}
+
+.sp-2 {
+  font-size: 80px;
+}
+
+.sp-3 {
+  color: rgba(152, 0, 0, 1);
+  font-size: 80px;
+}
+
+.banner1 p {
+  margin: 40px 0;
+}
+
+.banner1 button {
+  background-color: green;
+  color: white;
+  padding: 5px 20px;
+  font-size: x-large;
+  border-radius: 30px;
+  border: none;
+}
+
+.banner2 {
+  width: 50%;
+}
+
+.banner2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner1 {
+  text-align: center;
+}
+
+/* Register Section */
+.register-sec {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register p {
+  margin: 0 50px;
+}
+
+.register-sec button {
+  color: white;
+  padding: 5px 80px;
+  font-size: x-large;
+  border-radius: 30px;
+  border: none;
+}
+
+.login {
+  background-color: green;
+}
+
+.shared {
+  background-color: rgba(152, 0, 0, 1);
+}
+
+
+/* Image Section */
+.img-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 100px 0;
+}
+
+.img-section img {
+  width: 20%;
+}
+
+
+/* Our Story */
+.story-section {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.story-img {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.story-img img {
+  width: 45%;
+}
+
+
+/* .footer {
+  background-color: rgba(37, 38, 33, 1);
+  padding: 50px 0;
+}
+
+.social {
+  text-align: right;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.main {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.details {
+  padding-top: 5%;
+  color: white;
+  text-align: center;
+}
+
+.icon {
+  height: 30px;
+  padding-left: 15px;
+} */

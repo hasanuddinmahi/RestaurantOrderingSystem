@@ -1,0 +1,94 @@
+*{
+    font-family: "Baloo 2", cursive;
+    
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    width: 91%;
+    height: 550px;
+    margin-top: 3em;
+    margin-left: 4em;
+    margin-bottom: 3em;
+  }
+  
+
+h1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 5px solid rgba(152, 0, 0, 1);
+    background-color: rgba(152, 0, 0, 1);
+}
+
+.vertical {
+    background-color: rgba(0, 105, 0, 1);
+    height: 30em;
+    width: 0.7em;
+    position: absolute;
+    left: 60%;
+    margin-top: -5em;
+}
+
+.details {
+    margin-top: 25px;
+    width: 90%;
+    height: 470px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+}
+
+.details1 {
+    margin-left: 3em;
+    width: 63%;
+    height: 360px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.details1 h3{
+ margin-top: 1.2em;
+ margin-left: 2.8em;
+}
+
+.food{
+    margin-top: 8px;
+    margin-left: 0.8em;
+}
+
+.details2 {
+    width: 25%;
+    padding-top: 40px;
+    margin-top: -4em;
+}
+
+.reciepe {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    text-align: left;
+}
+
+.con-del {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    background-color: green;
+    border: none;
+}

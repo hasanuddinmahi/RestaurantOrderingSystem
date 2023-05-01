@@ -1,0 +1,48 @@
+* {
+  font-family: "Baloo 2", cursive;
+}
+
+.main-section {
+  margin-bottom: 5em;
+}
+
+.welcome {
+  margin-bottom: 7em;
+}
+
+h1 {
+  font-size: 2.4em;
+  margin-left: 0.3em;
+}
+
+hr {
+  width: 30%;
+  height: 0.6em;
+  float: left;
+  border: 2px solid rgba(152, 0, 0, 1);
+  background-color: rgba(152, 0, 0, 1);
+  margin-left: -1em;
+}
+
+.buttons {
+  margin-left: 12em;
+}
+
+.btn {
+  /* padding: 1.5em; */
+  text-align: center;
+  margin-bottom: 1.4em;
+  border-radius: 2em;
+  border: none;
+  background-color: rgba(152, 0, 0, 1);
+  color: white;
+  font-size: 1.5em;
+  width: 14em;
+  height: 2em;
+}
+
+.img-section {
+  width: 30%;
+  margin-left: 56em;
+  margin-top: -18em;
+}

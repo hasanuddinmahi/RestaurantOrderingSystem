@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Baloo 2", cursive;
+}
+
+.container {
+    margin: auto;
+}
+span {
+    font-family: 'Irish Grover', cursive;
+    font-size: 40px;
+}
+.it-1 {
+    color: green;
+   
+  }
+
+  
+  .alia {
+    color: black;
+  }
+  
+  .no {
+    color: rgba(152, 0, 0, 1);
+  }
+.container img {
+    width: 200px;
+}
+
+header {
+    border: 2px solid black;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 800;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.25);
+    width: 93%;
+    height: 700px;
+    margin-left: 65px;
+    margin-top: 80px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 5px solid rgba(152, 0, 0, 1);
+    background-color: rgba(152, 0, 0, 1);
+}
+
+.vertical {
+    background-color: rgba(0, 105, 0, 1);
+    height: 610px;
+    width: 12px;
+    position: absolute;
+    left: 65%;
+    top: 160px;
+}
+
+.details {
+    margin-top: 25px;
+    width: 90%;
+    height: 470px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details1 {
+    width: 70%;
+}
+
+.details2 {
+    width: 25%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.reciepe {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.details div h3 {
+    margin: 50px;
+}
+
+.con-del {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: green;
+    border: none;
+}

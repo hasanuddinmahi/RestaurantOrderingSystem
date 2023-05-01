@@ -1,0 +1,26 @@
+.footer {
+    background-color: rgba(37, 38, 33, 1);
+    padding: 50px 0;
+}
+
+footer .main {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+footer .details {
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+footer .social {
+    display: flex;
+}
+
+footer .icon {
+    height: 30px;
+    padding-left: 15px;
+}
